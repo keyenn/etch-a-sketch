@@ -29,7 +29,7 @@ let reset = document.querySelector(".rst")
 reset.addEventListener("click", function(e) {
     removeSquares("square");
     createGrid(16, 16);
-})
+});
 
 
 function createSquares(numSquares) 
