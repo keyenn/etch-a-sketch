@@ -1,0 +1,45 @@
+#container 
+{
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    grid-template-rows: repeat(var(--rows), 1fr);
+    justify-content: center;
+    margin:auto;
+    width: 550px;
+    height: 550px;
+    border: black solid 8px;
+}
+
+.square
+{
+    display: flex;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.button
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.rst
+{
+    margin-left: 10px;
+}
+
+.title
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+:root
+{
+    --rows: 1;
+    --columns: 1;
+}
